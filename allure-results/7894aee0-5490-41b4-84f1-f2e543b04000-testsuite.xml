@@ -1,0 +1,40 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1718193629808' stop='1718193640479'>
+    <name>Verify User is Able to login to the Application </name>
+    <title>Verify User is Able to login to the Application </title>
+    <test-cases>
+        <test-case start='1718193629817' status='passed' stop='1718193640477'>
+            <name>Verify Login</name>
+            <title>Verify Login</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='Pixel_2_V12 12.0-12'/>
+            </parameters>
+            <steps>
+                <step start='1718193632504' status='passed' stop='1718193632504'>
+                    <name>Entered UserName is rmgyantra</name>
+                    <title>Entered UserName is rmgyantra</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1718193634478' status='passed' stop='1718193634478'>
+                    <name>Entered UserName is rmgy@9999</name>
+                    <title>Entered UserName is rmgy@9999</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1718193639946' status='passed' stop='1718193639946'>
+                    <name>Login Successfull</name>
+                    <title>Login Successfull</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

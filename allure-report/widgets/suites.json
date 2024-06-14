@@ -1,1 +1,1 @@
-{"total":1,"items":[{"uid":"2e07231b405f867651d856b0c6e78c0b","name":"Verify User is Able to login to the Application ","statistic":{"failed":0,"broken":0,"skipped":0,"passed":2,"unknown":0,"total":2}}]}
+{"total":2,"items":[{"uid":"775ea519966272ac8190d42025fcec69","name":"Verify user is able to do the payment","statistic":{"failed":0,"broken":0,"skipped":0,"passed":3,"unknown":0,"total":3}},{"uid":"2e07231b405f867651d856b0c6e78c0b","name":"Verify User is Able to login to the Application ","statistic":{"failed":0,"broken":0,"skipped":0,"passed":2,"unknown":0,"total":2}}]}

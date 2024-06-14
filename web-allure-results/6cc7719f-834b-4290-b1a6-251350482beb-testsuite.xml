@@ -1,0 +1,28 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1718349267189' stop='1718349269414'>
+    <name>Verify user is able to do the payment</name>
+    <title>Verify user is able to do the payment</title>
+    <test-cases>
+        <test-case start='1718349267189' status='broken' stop='1718349269412'>
+            <name>Proceed to pay and Confirm Payment Success Message</name>
+            <title>Proceed to pay and Confirm Payment Success Message</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='Chrome-14'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='3f90ee84-e500-45e5-926d-9c95bdf5086a-attachment.png' type='image/png' size='68953'/>
+            </attachments>
+            <failure>
+                <message>selector needs to be typeof `string` or `function`</message>
+                <stack-trace>Error: selector needs to be typeof `string` or `function`
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

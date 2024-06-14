@@ -1,0 +1,29 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1718277456509' stop='1718277475620'>
+    <name>Verify user is able to do the payment</name>
+    <title>Verify user is able to do the payment</title>
+    <test-cases>
+        <test-case start='1718277456510' status='broken' stop='1718277475617'>
+            <name>Proceed to pay </name>
+            <title>Proceed to pay </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='Pixel_2_V12 12.0-12'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='5a896899-f787-41a8-ba0a-6b744875f296-attachment.png' type='image/png' size='57012'/>
+            </attachments>
+            <failure>
+                <message>OTP Text field is not displayed</message>
+                <stack-trace>Error: OTP Text field is not displayed
+                    at async WorkFlowLibrary.enterOtpAndSubmit (workflowLib.js:32:9)
+                    at async Context.&lt;anonymous> (paymentScenario.spec.js:13:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

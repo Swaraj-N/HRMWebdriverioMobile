@@ -1,0 +1,29 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1718272828955' stop='1718272834478'>
+    <name>Verify user is able to do the payment</name>
+    <title>Verify user is able to do the payment</title>
+    <test-cases>
+        <test-case start='1718272828956' status='broken' stop='1718272834476'>
+            <name>Proceed to pay </name>
+            <title>Proceed to pay </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='Pixel_2_V12 12.0-12'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='4e24e4b4-44e8-49f6-a99d-d16bfb740797-attachment.png' type='image/png' size='67526'/>
+            </attachments>
+            <failure>
+                <message>Card Number Text field is not clickable</message>
+                <stack-trace>Error: Card Number Text field is not clickable
+                    at async WorkFlowLibrary.enterCardDetailsAndProceedToPay (workflowLib.js:14:9)
+                    at async Context.&lt;anonymous> (paymentScenarion.js:12:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

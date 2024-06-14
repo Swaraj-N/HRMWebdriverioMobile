@@ -1,0 +1,34 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1718344232027' stop='1718344254007'>
+    <name>Verify user is able to do the payment</name>
+    <title>Verify user is able to do the payment</title>
+    <test-cases>
+        <test-case start='1718344232027' status='failed' stop='1718344254006'>
+            <name>Proceed to pay and Confirm Payment Success Message</name>
+            <title>Proceed to pay and Confirm Payment Success Message</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='RZ8T50ZVKPE-14'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='a7baff97-f711-4e83-837c-5145f98f2162-attachment.png' type='image/png' size='106763'/>
+            </attachments>
+            <failure>
+                <message>Success Message is same: expected '' to equal 'Payment Successful'      
+                      actual expected
+                      
+                      'Payment Successful'
+                      </message>
+                <stack-trace>AssertionError: Success Message is same: expected '' to equal 'Payment Successful'
+                    at CardDetailsScreen.verifySuccessMessage (cardDetails.screen.js:70:55)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Context.&lt;anonymous> (paymentScenario.spec.js:19:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

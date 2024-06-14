@@ -1,0 +1,30 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1718311038020' stop='1718311039532'>
+    <name>Verify user is able to do the payment</name>
+    <title>Verify user is able to do the payment</title>
+    <test-cases>
+        <test-case start='1718311038022' status='broken' stop='1718311039529'>
+            <name>Proceed to pay and Confirm Payment Success Message</name>
+            <title>Proceed to pay and Confirm Payment Success Message</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-126.0.6478.57'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='e9b2448d-3641-418e-9d3f-f2bf8968586f-attachment.png' type='image/png' size='58794'/>
+            </attachments>
+            <failure>
+                <message>Unsupported platform: windows</message>
+                <stack-trace>Error: Unsupported platform: windows
+                    at ProceedToPayment.proceedToPay (proceed.screen.js:19:19)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Context.&lt;anonymous> (paymentScenario.spec.js:10:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

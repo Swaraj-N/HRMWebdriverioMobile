@@ -1,0 +1,29 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1718345612717' stop='1718345670036'>
+    <name>Verify user is able to do the payment</name>
+    <title>Verify user is able to do the payment</title>
+    <test-cases>
+        <test-case start='1718345612718' status='broken' stop='1718345670035'>
+            <name>Proceed to pay and Confirm Payment Success Message</name>
+            <title>Proceed to pay and Confirm Payment Success Message</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-126.0.6478.57'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='fd274e22-ca49-473b-921b-2c93467d842d-attachment.png' type='image/png' size='16028'/>
+            </attachments>
+            <failure>
+                <message>Can't call click on element with selector "//*[text()='Proceed to Checkout']" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "//*[text()='Proceed to Checkout']" because element wasn't found
+                    at async ProceedScreen.clickProceedBtn (proceed.screen.js:10:9)
+                    at async Context.&lt;anonymous> (paymentScenario.spec.js:15:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

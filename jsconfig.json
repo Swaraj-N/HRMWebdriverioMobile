@@ -12,6 +12,6 @@
         "test/screenObjects/*.js",
         "**/*.json",
         "**/*.js",
-        "wdio.conf.js"
+        "wdio.android.conf.js"
     ]
 }
